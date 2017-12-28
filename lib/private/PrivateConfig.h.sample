@@ -1,0 +1,17 @@
+#ifndef __PRIVATE_CONFIG_H__
+#define __PRIVATE_CONFIG_H__
+
+#include <Arduino.h>
+
+#define WIFI_CHNL 1
+#undef DEBUG
+
+// item name for battery value
+#define OPENHAB_ITEM_NAME "Controller"
+
+// openhab action
+#define OPENHAB_ACTION "CMD?Light_Button=ON"
+
+uint8_t remoteMac[] = {0x01, 0x02, 0x03, 0x04, 0x05, 0x06};
+
+#endif
